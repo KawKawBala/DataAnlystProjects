@@ -47,13 +47,13 @@ library(rsconnect)
 #App name
 an <- "Tweetmeroteca"
 #API key
-ak <- "LHrkeHvRJlF8q1vI1l86w0eF2"
+ak <- "anonymized"
 #API secret key
-ask <- "z4yxqh0gwO8EvgO7U2xOGO5MZcsCCJhgs7z9QPQi0TilwvxcHt"
+ask <- "anonymized"
 #Access token
-at <- "1250881489052545025-XIkRBTMI97JphnLXiBQ7T3C4DnXzV2"
+at <- "anonymized-anonymized"
 #Access token secret
-ats <- "N1PHOXgSG3bQTmrC5hKnvR9n8lPlh0HEa6U4ebvJzzTeo"
+ats <- "anonymized"
 
 t <- create_token(an, ak, ask, at, ats)
 
@@ -67,7 +67,7 @@ t <- create_token(an, ak, ask, at, ats)
 
 
 #Google Maps API for "geocode()" function to transform names into lat and long.
-register_google(key="AIzaSyCV_a4OR2R2oSiIFzPvslOU7AolYS0R_Sw", write = TRUE)
+register_google(key="anonymized", write = TRUE)
 ############################################################################################################################
 
 ui <- dashboardPage(
